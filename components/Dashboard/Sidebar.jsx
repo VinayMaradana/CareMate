@@ -33,7 +33,7 @@ export default function Sidebar({ activeTab, setActiveTab }) {
         { id: 'prediction', label: 'AI Prediction', icon: Brain },
         { id: 'appointments', label: 'Book Appointment', icon: Calendar },
         { id: 'my-appointments', label: 'My Appointments', icon: FileText },
-        { id: 'reports', label: 'Medical Reports', icon: FileText },
+        //{ id: 'reports', label: 'Medical Reports', icon: FileText },
     ];
 
     const getInitials = (name) => {

@@ -64,7 +64,7 @@ export default function DoctorSidebar() {
         { id: 'dashboard', name: 'Dashboard', href: '/dashboard/doctor?tab=dashboard', icon: LayoutDashboard },
         { id: 'appointments', name: 'Appointments', href: '/dashboard/doctor?tab=appointments', icon: Calendar },
         { id: 'slots', name: 'Slots', href: '/dashboard/doctor?tab=schedule', icon: Activity },
-        { id: 'prescriptions', name: 'Prescriptions', href: '/dashboard/doctor?tab=prescriptions', icon: FileText },
+        //{ id: 'prescriptions', name: 'Prescriptions', href: '/dashboard/doctor?tab=prescriptions', icon: FileText },
     ];
 
     const getInitials = (name) => {
